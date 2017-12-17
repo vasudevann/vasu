@@ -1,18 +1,18 @@
-a=raw_input()
-b=raw_input()
-c=raw_input()
-if a<b:
-	if b<c:
-		print c
+x=raw_input()
+y=raw_input()
+z=raw_input()
+if x<y:
+	if y<z:
+		print z
 	else:
-		print b
-elif b<c:
-	if c<a:
-		print a
+		print y
+elif y<z:
+	if z<x:
+		print x
 	else:
-		print c
-elif c<a:
-	if a<b:
-		print b
+		print z
+elif z<x:
+	if x<y:
+		print y
 	else:
-		print a
+		print x
