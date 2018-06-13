@@ -1,16 +1,16 @@
-Num=121
+Num1=121
 
-temp=121
+temp1=121
 
-rev=0
+rev1=0
 
-while temp !=0:
+while temp1 !=0:
 	
-         rev=(rev*10)+(temp%10)
+         rev1=(rev1*10)+(temp1%10)
 	
-         temp=temp//10
+         temp1=temp1//10
 
-if Num==rev:
+if Num1==rev1:
 	 
           print("yes")
 
