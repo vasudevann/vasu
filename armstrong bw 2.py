@@ -1,13 +1,13 @@
 lower = int(input())
 upper = int(input())
-for num in range(lower, upper):
-   order = len(str(num))
+for numss in range(lower, upper):
+   order = len(str(numss))
    sum = 0
-   temp = num
+   temp = numss
    while temp > 0:
        digit = temp % 10
        sum += digit ** order
        temp //= 10
 
-   if num == sum:
-       print(num)
+   if numss == sum:
+       print(numss)
