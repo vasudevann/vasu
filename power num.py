@@ -1,10 +1,10 @@
-x=2
+s=2
 
 
-y=3
+v=3
 
-print(x,y)
+print(s,v)
 
-z=x**y
+z=s**v
 
 print(z)
