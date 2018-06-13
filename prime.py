@@ -1,7 +1,7 @@
-Num=13
-if Num>1:
-	for i in range(2,Num):
-		if(Num%i)==0:
+Num1=13
+if Num1>1:
+	for i in range(2,Num1):
+		if(Num1%i)==0:
 			print("no")
 			break
 	else:
