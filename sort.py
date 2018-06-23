@@ -1,0 +1,5 @@
+n=int(input())
+m=input()
+list=m.split(" ")
+list.sort()
+print(' '.join(list))
